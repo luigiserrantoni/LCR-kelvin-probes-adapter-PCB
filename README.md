@@ -2,13 +2,15 @@
 
 To connect 4 wire (kelvin) probes to an handheld LCR some kind of adapter is necessary. The adapter  allows to reach the contacts inside the instrument slots used to insert the tested component leads.
 
-<img src="/images/handheld-LCR-adapter.jpg" alt="Adapter PCB" title="Adapter PCB" width=50% height=50%>
+<img src="/images/handheld-LCR-with-adapter-and-probes.jpg" alt="LCR with adapter PCB" title="LCR with adapter PCB" width=50% height=50%>
 
 LCR must provide 4 wire measurement method. All bench LCR make kelvin measuremnts, but handheld LCR sometimes not. An example is the Keysight U1730C series. 
 
 User *Voltlog* designed a very nice adapter pcb for Hantek LCR meters, [it can be bought on tindie](https://www.tindie.com/products/voltlog/lcr-meter-kelvin-test-lead-adapter-pcb/).
 
 I derived from his project a version suitable for other LCR models. I have also foreseen the way to mount the capacitors necessary for the measurement on the batteries.
+
+<img src="/images/handheld-LCR-adapter.jpg" alt="Adapter PCB" title="Adapter PCB" width=50% height=50%>
 
 The LCR adapter PCB is designed for theese LCR models:
 
@@ -39,10 +41,11 @@ When using probes to measure battery internal resistance or impedance with the L
 <img src="/images/lcr-adapter-pcb-insulation-capacitors.jpg" alt="capacitors" title="LCR insulation capacitors" width=50% height=50%>
 
 Suggested values:
-C1 470uF
-C2 2.2 uF
-When capacitor are not installed the pads shall be short-circuited.
 
+- C1 470uF
+- C2 2.2 uF
+
+When capacitor are not installed the pads shall be short-circuited.
 
 **Case**
 
