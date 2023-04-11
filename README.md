@@ -6,7 +6,7 @@ To connect 4 wire (kelvin) probes to an handheld LCR some kind of adapter is nec
 
 LCR must provide 4 wire measurement method. All bench LCR make kelvin measuremnts, but handheld LCR sometimes not. An example is the Keysight U1730C series. 
 
-User *Voltlog* designed a very nice adapter pcb for Hantek LCR meters, [it can be bought on tindie](https://www.tindie.com/products/voltlog/lcr-meter-kelvin-test-lead-adapter-pcb/).
+User *Voltlog* designed a very nice [adapter pcb for Hantek LCR meters](https://github.com/voltlog/kelvin-leads), it can be [bought on tindie](https://www.tindie.com/products/voltlog/lcr-meter-kelvin-test-lead-adapter-pcb/).
 
 I derived from his project a version suitable for other LCR models. I have also foreseen the way to mount the capacitors necessary for the measurement on the batteries.
 
@@ -19,6 +19,11 @@ The LCR adapter PCB is designed for theese LCR models:
 - Tonghui TH2822A / TH2822C / TH2822D / TH2822E
 - Eucol U822, 
 - Sourcetronic ST2822/ST2822A/ST2822C
+
+I have no information regarding other models. You can chek compatibility to your model by comparing your LCR adapter with the provided dimesions and pad signal description. 
+
+<img src="/images/adapter-pcb-dimensions.jpg " alt="Adapter PCB dimensions" title="Adapter PCB dimensions" width=50% height=50%>
+
 
 **Use examples**
 
