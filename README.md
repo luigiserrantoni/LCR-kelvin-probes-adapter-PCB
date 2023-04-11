@@ -2,11 +2,7 @@
 
 To connect 4 wire (kelvin) probes to an handheld LCR some kind of adapter is necessary. The adapter  allows to reach the contacts inside the instrument slots used to insert the tested component leads.
 
-<img
-  src="/images/handheld-LCR-adapter.jpg"
-  alt="Adapter PCB"
-  title="Adapter PCB"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+<img src="/images/handheld-LCR-adapter.jpg" alt="Adapter PCB" title="Adapter PCB" width=50% height=50%>
 
 LCR must provide 4 wire measurement method. All bench LCR make kelvin measuremnts, but handheld LCR sometimes not. An example is the Keysight U1730C series. 
 
@@ -25,19 +21,22 @@ The LCR adapter PCB is designed for theese LCR models:
 **Use examples**
 
 LCR double contacts kelvin pobes
-![capacitors](/images/lcr-adapter-pcb-doublepin-probes.jpg?raw=true "LCR double contacts kelvin pobes")
+
+<img src="/images/lcr-adapter-pcb-doublepin-probes.jpg" alt="capacitors" title="LCR double contacts kelvin pobes" width=50% height=50%>
+
 I designed theese DIY probes for battery impedance measurements, are available on my [my Tindie store](https://www.tindie.com/products/bitplus/4-wire-kelvin-double-contacts-probes-kit/).
 
 Tester probes
-![LCR tester pobes](/images/lcr-adapter-pcb-tester-probes.jpg?raw=true "LCR tester pobes")
+
+<img src="/images/lcr-adapter-pcb-tester-probes.jpg" alt="LCR tester pobes" title="LCR tester pobes" width=50% height=50%>
+
 The 4 wires are connectet on the back of the probe pins.
 
 **Use for battery measurements**
 
 When using probes to measure battery internal resistance or impedance with the LCR, it is necessary to insulate the instrument from the battery voltage and avoid to damage the LCR. The PCB is provided for mounting of 2 electrolitic capacitors to perform this insulation.
 
-![capacitors](/images/lcr-adapter-pcb-insulation-capacitors.jpg?raw=true "LCR insulation capacitors")
-
+<img src="/images/lcr-adapter-pcb-insulation-capacitors.jpg" alt="capacitors" title=LCR insulation capacitors" width=50% height=50%>
 Suggested values:
 C1 470uF
 C2 2.2 uF
@@ -47,7 +46,7 @@ When capacitor are not installed the pads shall be short-circuited.
 **Case**
 
 A case to be 3D printed is under development
-![case](/images/handheld-LCR-adapter-case.jpg?raw=true "LCR adapter case")
+<img src="/images/handheld-LCR-adapter-case.jpg" alt="case" title=LCR adapter case" width=50% height=50%>
 
 **How to get one**
 
