@@ -1,8 +1,8 @@
-# LCR-adapter
+# LCR kelvin probes (4 wires) adapter PCB
 
 To connect 4 wire (kelvin) probes to an handheld LCR some kind of adapter is necessary. The adapter  allows to reach the contacts inside the instrument slots used to insert the tested component leads.
 
-<img src="/images/handheld-LCR-with-adapter-and-probes.jpg" alt="LCR with adapter PCB" title="LCR with adapter PCB" width=50% height=50%>
+<img src="/images/handheld-LCR-with-adapter-and-probes.jpg" alt="" title="LCR with adapter PCB and DIY double contacts probes" width=50% height=50%>
 
 LCR must provide 4 wire measurement method. All bench LCR make kelvin measuremnts, but handheld LCR sometimes not. An example is the Keysight U1730C series. 
 
@@ -26,7 +26,7 @@ LCR double contacts kelvin pobes
 
 <img src="/images/lcr-adapter-pcb-doublepin-probes.jpg" alt="capacitors" title="LCR double contacts kelvin pobes" width=50% height=50%>
 
-I designed theese DIY probes for battery impedance measurements, are available on my [my Tindie store](https://www.tindie.com/products/bitplus/4-wire-kelvin-double-contacts-probes-kit/).
+I designed theese DIY probes for battery impedance measurements, are available on [my Tindie store](https://www.tindie.com/products/bitplus/4-wire-kelvin-double-contacts-probes-kit/).
 
 Tester probes
 
