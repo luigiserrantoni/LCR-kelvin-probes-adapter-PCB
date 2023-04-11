@@ -1,14 +1,14 @@
 # LCR kelvin probes (4 wires) adapter PCB
 
-To connect 4 wire (kelvin) probes to an handheld LCR some kind of adapter is necessary. The adapter  allows to reach the contacts inside the instrument slots used to insert the tested component leads.
+To connect 4 wire (kelvin) probes to an handheld LCR some kind of adapter is usually necessary. The adapter allows to reach the contacts inside the instrument slots used to insert the tested component leads.
 
 <img src="/images/handheld-LCR-with-adapter-and-probes.jpg" alt="" title="LCR with adapter PCB and DIY double contacts probes" width=50% height=50%>
 
-LCR must provide 4 wire measurement method. All bench LCR make kelvin measuremnts, but handheld LCR sometimes not. An example is the Keysight U1730C series. 
+Obviously, to be able to connect a kelvin probe, LCR must provide 4 wire measurement method (i.e. the 4 signals are abailable inside the lcr slots). All bench LCR make kelvin measuremnts, but handheld LCR sometimes not. An example is the Keysight U1730C series. 
 
 User *Voltlog* designed a very nice [adapter pcb for Hantek LCR meters](https://github.com/voltlog/kelvin-leads), it can be [bought on tindie](https://www.tindie.com/products/voltlog/lcr-meter-kelvin-test-lead-adapter-pcb/).
 
-I derived from his project a version suitable for other LCR models. I have also foreseen the way to mount the capacitors necessary for the measurement on the batteries.
+I derived from his project a version suitable for other LCR models. I have also foreseen the way to mount the capacitors necessary to execute measurements on batteries.
 
 <img src="/images/handheld-LCR-adapter.jpg" alt="Adapter PCB" title="Adapter PCB" width=50% height=50%>
 
@@ -20,24 +20,28 @@ The LCR adapter PCB is designed for theese LCR models:
 - Eucol U822, 
 - Sourcetronic ST2822/ST2822A/ST2822C
 
-I have no information regarding other models. You can chek compatibility to your model by comparing your LCR adapter with the provided dimesions and pad signal description. 
+I have no information regarding other models. You can check compatibility to your model by comparing your LCR slots (or LCR original probe adaper) with the provided dimesions and pad signal description. 
 
 <img src="/images/adapter-pcb-dimensions.jpg " alt="Adapter PCB dimensions" title="Adapter PCB dimensions" width=50% height=50%>
 
 
 **Use examples**
 
-LCR double contacts kelvin pobes
+The adapter can be used to connect many different types of probes:
+
+- Kelvin clips
+- SMD kelvin tweezer probe
+- double contacts kelvin pobes
 
 <img src="/images/lcr-adapter-pcb-doublepin-probes.jpg" alt="capacitors" title="LCR double contacts kelvin pobes" width=50% height=50%>
 
 I designed theese DIY probes for battery impedance measurements, are available on [my Tindie store](https://www.tindie.com/products/bitplus/4-wire-kelvin-double-contacts-probes-kit/).
 
-Tester probes
+- single contact "Tester" probes
 
 <img src="/images/lcr-adapter-pcb-tester-probes.jpg" alt="LCR tester pobes" title="LCR tester pobes" width=50% height=50%>
 
-The 4 wires are connectet on the back of the probe pins.
+(note: the 4 wires are connectet on the back of the probe pins)
 
 **Use for battery measurements**
 
