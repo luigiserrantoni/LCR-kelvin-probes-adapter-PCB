@@ -36,7 +36,8 @@ The 4 wires are connectet on the back of the probe pins.
 
 When using probes to measure battery internal resistance or impedance with the LCR, it is necessary to insulate the instrument from the battery voltage and avoid to damage the LCR. The PCB is provided for mounting of 2 electrolitic capacitors to perform this insulation.
 
-<img src="/images/lcr-adapter-pcb-insulation-capacitors.jpg" alt="capacitors" title=LCR insulation capacitors" width=50% height=50%>
+<img src="/images/lcr-adapter-pcb-insulation-capacitors.jpg" alt="capacitors" title="LCR insulation capacitors" width=50% height=50%>
+
 Suggested values:
 C1 470uF
 C2 2.2 uF
@@ -46,7 +47,8 @@ When capacitor are not installed the pads shall be short-circuited.
 **Case**
 
 A case to be 3D printed is under development
-<img src="/images/handheld-LCR-adapter-case.jpg" alt="case" title=LCR adapter case" width=50% height=50%>
+
+<img src="/images/handheld-LCR-adapter-case.jpg" alt="case" title="LCR adapter case" width=50% height=50%>
 
 **How to get one**
 
