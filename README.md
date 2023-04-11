@@ -23,7 +23,12 @@ When using probes to measure battery internal resistance or impedance with the L
 Suggested values:
 C1 470uF
 C2 2.2 uF
+When capacitor are not installed the pads shall be short-circuited.
 
 **Case**
+
 A case to be 3D printed is under development
 ![case](/images/handheld-LCR-adapter-case.jpg?raw=true "LCR adapter case")
+
+**How to get one**
+You can order the PCB from [my tindie store](https://www.tindie.com/products/bitplus/lcr-kelvin-4-wires-probes-adapter-pcb/).
